@@ -1,0 +1,132 @@
+*{ padding: 0px;
+    margin:0px ;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    }
+    
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+      
+    /* navmenu */
+    .entete{
+      display: flex;
+      
+      align-items: center;
+    width: 100%;
+    border: 1px solid #7dc023;
+}
+.entete .fa{
+  color: white;
+}
+ .navmenu{
+    
+    list-style:none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+ 
+  background-color:#7dc023;
+
+  } 
+  .navmenu> li{
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+.navmenu> li :hover{
+background-color:#fff;
+border-radius: 20px;
+padding: 20px;
+}
+.navmenu> li :hover  .fa{
+    color: #7dc023;
+   
+}
+.navmenu> li > a {
+  margin: 0 10px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navmenu > li > a:hover {
+  text-decoration: underline;
+
+
+}
+/* icon */
+.fa{
+    color: #7dc023;
+  font-size:12px;
+  
+  }
+  
+ /* footer */
+
+footer{
+  
+    width: 100%;
+    background-color:#7dc023;
+
+    color: white;
+    text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  
+  }
+
+  /*   section contact*/
+
+.coordonnes{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin:20px;
+    
+  }
+  .hcontact{
+    
+    text-align: center;
+    color: #000;
+    width: 100%;
+    border-top: 1px solid #7dc023;
+    
+    
+  }
+  .contentcontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+   
+  }
+  
+  
+  .forminfo{
+    margin: 20px;
+  }
+ 
+   
+
+/*image produits*/
+
+    .Product-img img{
+      width: 100%;
+    }
+    
+    @media  (max-width:900px) {
+     
+      .contentcontact{
+        flex-direction: column;
+        
+      }
+      
+    }
